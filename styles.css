@@ -1,5 +1,93 @@
+.contacts .nav-link{
+    color: green;
+}
+.contacts .nav-link p{
+    color: black;
+}
+@media (min-width: 768px) {
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .social-icons {
+      display: flex;
+      justify-content:left;
+    }
+  
+    .social-icons .nav-link {
+      margin: 0 5px;
+    }
+  }
+.custom-hr {
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-top: 2px solid green;
+}
+a.nav-link{
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+a.nav-link:hover{
+    color: rgb(36, 176, 129);
+}
+.imgInst img:hover {
+    background-color: rgb(36, 176, 129);
+}
+
+.imgInst img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+}
 section{
     padding-top: 100px;
     padding-bottom: 100px;
     
+}
+.section-2{
+    padding: 20px;
+    background-color: rgb(246, 246, 246);
+}
+
+.section-2-header {
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+.section-2,
+.section-3,
+.section-4 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.block {
+    margin: 2%;
+    background-color: rgb(246, 246, 246);
+}
+
+.section-2-header {
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 20px;
+    color: black;
+}
+
+.carousel-control-prev {
+    left: -35px;
+}
+
+.carousel-control-next {
+    right: -35px;
 }
